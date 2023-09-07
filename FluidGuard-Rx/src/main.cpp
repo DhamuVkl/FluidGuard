@@ -27,7 +27,7 @@ void setup()
   radio.begin();
   radio.openReadingPipe(0, address);
   radio.setPALevel(RF24_PA_MAX);
-  radio.setChannel(75);
+  radio.setChannel(120);
   radio.setDataRate(RF24_250KBPS);
   radio.startListening();
 
@@ -66,11 +66,11 @@ void updateRelayState(int percentage)
   {
     relayState = LOW; // Turn off the relay
   }
-  else if (percentage >= 117)
+  else if (percentage >= 115)
   {
     relayState = LOW; // Turn off the relay
   }
-  else if (percentage <= 50)
+  else if (percentage <= 40)
   {
     relayState = HIGH; // Turn on the relay
   }
@@ -99,6 +99,15 @@ void clearTemporaryFail()
 
 void loop()
 {
+  // Check if the A1 button is pressed
+  if (digitalRead(buttonPinA1) == LOW)
+  {
+    unsigned long distance;
+    digitalWrite(relayPin, LOW); // Turn off the relay
+    updateRelayState(distance); // Update the relay state based on distance percentage
+    return; // Exit the loop, no further processing needed
+  }
+
   if (radio.available())
   {
     unsigned long distance;
@@ -109,7 +118,7 @@ void loop()
     clearTemporaryFail(); // Clear the "Temporary Fail" message if it was previously displayed
 
     lcd.clear();                    // Clear the LCD screen
-    displayBarGraph(distance, 120); // Assuming a maximum distance of 100 cm
+    displayBarGraph(distance, 125); // Assuming a maximum distance of 100 cm
 
     updateRelayState(distance); // Update the relay state based on distance percentage
   }
@@ -131,18 +140,6 @@ void loop()
     // Update the button A0 state and toggle the relay
     buttonPressedA0 = currentButtonStateA0;
     relayState = (buttonPressedA0) ? HIGH : relayState;
-    digitalWrite(relayPin, relayState);
-  }
-
-  // Read the button A1 state
-  bool currentButtonStateA1 = digitalRead(buttonPinA1);
-
-  // Check if the button A1 state has changed
-  if (currentButtonStateA1 != buttonPressedA1)
-  {
-    // Update the button A1 state and toggle the relay
-    buttonPressedA1 = currentButtonStateA1;
-    relayState = (buttonPressedA1) ? HIGH : relayState;
     digitalWrite(relayPin, relayState);
   }
 }
