@@ -12,9 +12,13 @@ const int buttonPinA0 = A0; // Push button A0 pin
 const int buttonPinA1 = A1; // Push button A1 pin
 const int relayPin = 8;     // Relay control pin
 
-int relayState = LOW;       // Initial state of the relay
-bool buttonPressedA0 = false; // Track the button A0 state
-bool buttonPressedA1 = false; // Track the button A1 state
+int relayState = LOW;           // Initial state of the relay
+bool buttonPressedA0 = false;   // Track the button A0 state
+bool buttonPressedA1 = false;   // Track the button A1 state
+unsigned long lastReceivedTime; // Variable to store the last time a percentage value was received
+const unsigned long timeoutDuration = 5000; // Timeout duration in milliseconds (e.g., 5000 = 5 seconds)
+
+bool isTemporaryFailDisplayed = false; // Flag to track if "Temporary Fail" is currently displayed
 
 void setup()
 {
@@ -23,16 +27,17 @@ void setup()
   radio.begin();
   radio.openReadingPipe(0, address);
   radio.setPALevel(RF24_PA_MAX);
-  radio.setChannel(120); 
+  radio.setChannel(75);
   radio.setDataRate(RF24_250KBPS);
   radio.startListening();
-  
-  pinMode(buttonPinA0, INPUT); 
-  pinMode(buttonPinA1, INPUT); 
-  pinMode(relayPin, OUTPUT);  
 
-  digitalWrite(relayPin, relayState); // Set initial state of the relay
+  pinMode(buttonPinA0, INPUT);
+  pinMode(buttonPinA1, INPUT);
+  pinMode(relayPin, OUTPUT);
 
+  digitalWrite(relayPin, LOW); // Set initial state of the relay
+
+  lastReceivedTime = millis(); // Initialize the lastReceivedTime variable with the current time
 }
 
 void displayBarGraph(int value, int maxValue)
@@ -57,16 +62,39 @@ void displayBarGraph(int value, int maxValue)
 
 void updateRelayState(int percentage)
 {
-  if (percentage >= 80)
+  if (isTemporaryFailDisplayed)
   {
     relayState = LOW; // Turn off the relay
   }
-  else if (percentage <= 20)
+  else if (percentage >= 117)
+  {
+    relayState = LOW; // Turn off the relay
+  }
+  else if (percentage <= 50)
   {
     relayState = HIGH; // Turn on the relay
   }
 
   digitalWrite(relayPin, relayState);
+}
+
+void displayTemporaryFail()
+{
+  if (!isTemporaryFailDisplayed)
+  {
+    lcd.clear(); // Clear the LCD screen
+    lcd.print("Temporary Fail"); // Display the warning message
+    isTemporaryFailDisplayed = true;
+  }
+}
+
+void clearTemporaryFail()
+{
+  if (isTemporaryFailDisplayed)
+  {
+    lcd.clear(); // Clear the LCD screen
+    isTemporaryFailDisplayed = false;
+  }
 }
 
 void loop()
@@ -76,11 +104,23 @@ void loop()
     unsigned long distance;
     radio.read(&distance, sizeof(distance)); // Receive the sonar distance value from the transmitter
 
+    lastReceivedTime = millis(); // Update the lastReceivedTime variable
+
+    clearTemporaryFail(); // Clear the "Temporary Fail" message if it was previously displayed
+
     lcd.clear();                    // Clear the LCD screen
-    displayBarGraph(distance, 100); // Assuming a maximum distance of 100 cm
+    displayBarGraph(distance, 120); // Assuming a maximum distance of 100 cm
 
     updateRelayState(distance); // Update the relay state based on distance percentage
+  }
 
+  // Check if the timeout duration has elapsed since the last received percentage value
+  if (millis() - lastReceivedTime >= timeoutDuration)
+  {
+    displayTemporaryFail(); // Display the "Temporary Fail" message
+    updateRelayState(0);    // Stop relay operation (set relayState to LOW)
+    // Perform any additional actions as needed
+  }
 
   // Read the button A0 state
   bool currentButtonStateA0 = digitalRead(buttonPinA0);
@@ -105,5 +145,4 @@ void loop()
     relayState = (buttonPressedA1) ? HIGH : relayState;
     digitalWrite(relayPin, relayState);
   }
-}
 }
