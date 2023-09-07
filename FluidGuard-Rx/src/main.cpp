@@ -20,26 +20,11 @@ const unsigned long timeoutDuration = 5000; // Timeout duration in milliseconds 
 
 bool isTemporaryFailDisplayed = false; // Flag to track if "Temporary Fail" is currently displayed
 
-void setup()
-{
-  lcd.begin(16, 2); // Set the LCD dimensions (16 columns and 2 rows)
+const int distanceMax = 120; // Maximum distance for bar graph display
+const int highThreshold = 117; // High threshold for relay state
+const int lowThreshold = 50; // Low threshold for relay state
 
-  radio.begin();
-  radio.openReadingPipe(0, address);
-  radio.setPALevel(RF24_PA_MAX);
-  radio.setChannel(120);
-  radio.setDataRate(RF24_250KBPS);
-  radio.startListening();
-
-  pinMode(buttonPinA0, INPUT);
-  pinMode(buttonPinA1, INPUT);
-  pinMode(relayPin, OUTPUT);
-
-  digitalWrite(relayPin, LOW); // Set initial state of the relay
-
-  lastReceivedTime = millis(); // Initialize the lastReceivedTime variable with the current time
-}
-
+// Function to display the bar graph on the LCD
 void displayBarGraph(int value, int maxValue)
 {
   int numBars = map(value, 0, maxValue, 0, 16);     // Map the value to the number of bars (0-16)
@@ -60,17 +45,14 @@ void displayBarGraph(int value, int maxValue)
   lcd.print("       "); // Clear any remaining characters on the line
 }
 
+// Function to update the relay state based on distance percentage
 void updateRelayState(int percentage)
 {
-  if (isTemporaryFailDisplayed)
+  if (isTemporaryFailDisplayed || percentage >= highThreshold)
   {
     relayState = LOW; // Turn off the relay
   }
-  else if (percentage >= 115)
-  {
-    relayState = LOW; // Turn off the relay
-  }
-  else if (percentage <= 40)
+  else if (percentage <= lowThreshold)
   {
     relayState = HIGH; // Turn on the relay
   }
@@ -78,6 +60,7 @@ void updateRelayState(int percentage)
   digitalWrite(relayPin, relayState);
 }
 
+// Function to display the "Temporary Fail" message
 void displayTemporaryFail()
 {
   if (!isTemporaryFailDisplayed)
@@ -88,6 +71,7 @@ void displayTemporaryFail()
   }
 }
 
+// Function to clear the "Temporary Fail" message
 void clearTemporaryFail()
 {
   if (isTemporaryFailDisplayed)
@@ -97,17 +81,45 @@ void clearTemporaryFail()
   }
 }
 
+// Function to read and debounce the button state
+bool readButtonState(int buttonPin, bool& buttonState)
+{
+  bool currentState = digitalRead(buttonPin);
+  if (currentState != buttonState)
+  {
+    delay(50); // Debounce delay
+    currentState = digitalRead(buttonPin);
+    if (currentState != buttonState)
+    {
+      buttonState = currentState;
+      return true; // Button state changed
+    }
+  }
+  return false; // Button state unchanged
+}
+
+void setup()
+{
+  lcd.begin(16, 2); // Set the LCD dimensions (16 columns and 2 rows)
+
+  radio.begin();
+  radio.openReadingPipe(0, address);
+  radio.setPALevel(RF24_PA_MAX);
+  radio.setChannel(75);
+  radio.setDataRate(RF24_250KBPS);
+  radio.startListening();
+
+  pinMode(buttonPinA0, INPUT);
+  pinMode(buttonPinA1, INPUT);
+  pinMode(relayPin, OUTPUT);
+
+  digitalWrite(relayPin, LOW); // Set initial state of the relay
+
+  lastReceivedTime = millis(); // Initialize the lastReceivedTime variable with the current time
+}
+
 void loop()
 {
-  // Check if the A1 button is pressed
-  if (digitalRead(buttonPinA1) == LOW)
-  {
-    unsigned long distance;
-    digitalWrite(relayPin, LOW); // Turn off the relay
-    updateRelayState(distance); // Update the relay state based on distance percentage
-    return; // Exit the loop, no further processing needed
-  }
-
   if (radio.available())
   {
     unsigned long distance;
@@ -118,7 +130,7 @@ void loop()
     clearTemporaryFail(); // Clear the "Temporary Fail" message if it was previously displayed
 
     lcd.clear();                    // Clear the LCD screen
-    displayBarGraph(distance, 125); // Assuming a maximum distance of 100 cm
+    displayBarGraph(distance, distanceMax);
 
     updateRelayState(distance); // Update the relay state based on distance percentage
   }
@@ -131,15 +143,17 @@ void loop()
     // Perform any additional actions as needed
   }
 
-  // Read the button A0 state
-  bool currentButtonStateA0 = digitalRead(buttonPinA0);
-
-  // Check if the button A0 state has changed
-  if (currentButtonStateA0 != buttonPressedA0)
+  // Read and handle button A0 state change
+  if (readButtonState(buttonPinA0, buttonPressedA0))
   {
-    // Update the button A0 state and toggle the relay
-    buttonPressedA0 = currentButtonStateA0;
-    relayState = (buttonPressedA0) ? HIGH : relayState;
+    relayState = buttonPressedA0 ? HIGH : LOW;
+    digitalWrite(relayPin, relayState);
+  }
+
+  // Read and handle button A1 state change
+  if (readButtonState(buttonPinA1, buttonPressedA1))
+  {
+    relayState = buttonPressedA1 ? HIGH : LOW;
     digitalWrite(relayPin, relayState);
   }
 }
