@@ -6,8 +6,8 @@ RF24 radio(9, 10);  // Set CE and CSN pins for NRF24L01+ module
 
 const byte address[6] = "00001";  // Set the transmitting address as a byte array
 
-const int triggerPin = 2;  // Connect the trigger pin of the HC-SR04 to digital pin 2
-const int echoPin = 3;  // Connect the echo pin of the HC-SR04 to digital pin 3
+const int triggerPin = 6;  // Connect the trigger pin of the HC-SR04 to digital pin 2
+const int echoPin = 7;  // Connect the echo pin of the HC-SR04 to digital pin 3
 
 unsigned long previousMillis = 0;  // Stores the previous time
 const long interval = 1000;  // Interval between measurements in milliseconds
@@ -16,11 +16,14 @@ const int numSamples = 5;  // Number of distance samples to collect
 int distances[numSamples];  // Array to store the distance samples
 int currentIndex = 0;  // Index of the current distance sample
 
+const int maxDistance = 125;  // Maximum distance limit in centimeters
+
 void setup() {
+  Serial.begin(115200);
   radio.begin();
   radio.openWritingPipe(address);
   radio.setPALevel(RF24_PA_MAX);
-  radio.setChannel(120); 
+  radio.setChannel(75); 
   radio.setDataRate(RF24_250KBPS);
   radio.stopListening();
   
@@ -56,8 +59,8 @@ void loop() {
     distance = duration / 58.2;
     
     // Apply error reduction using indexing approach
-    if (distance >= 2 && distance <= 400) {
-      distances[currentIndex] = distance;
+    if (distance >= 2 && distance <= maxDistance) {
+      distances[currentIndex] = maxDistance - distance;  // Reverse the measurement
       currentIndex = (currentIndex + 1) % numSamples;
     }
     
@@ -73,5 +76,6 @@ void loop() {
     int averageDistance = (validSamples > 0) ? (sum / validSamples) : -1;
     
     radio.write(&averageDistance, sizeof(averageDistance));  // Send the average distance value wirelessly to the receiver
+    Serial.println(averageDistance);
   }
 }
