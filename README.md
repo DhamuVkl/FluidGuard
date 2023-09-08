@@ -1,10 +1,10 @@
 <br/>
 <p align="center">
   <a href="https://github.com/dhamuvkl/FluidGuard">
-    <img src="https://github.com/ShaanCoding/ReadME-Generator" alt="Logo" width="80" height="80">
+    <img src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/273_Readme_logo-512.png" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">FluidGuard</h3>
+  <h1 align="center">FluidGuard</h1>
 
   <p align="center">
     Envision a helpful companion that not only observes fluid levels but also takes proactive measures to prevent wastage and shortages!
