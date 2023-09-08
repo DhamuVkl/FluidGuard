@@ -31,26 +31,36 @@
 
 ![Screen Shot](https://dharageshtech.files.wordpress.com/2023/09/img_20230528_140305.jpg?w=1024)
 
-The FluidGuard: Intelligent Liquid Level Management and Refill Solution is akin to having a smart assistant for effectively managing liquids in tanks and containers. Envision a helpful companion that not only observes fluid levels but also takes proactive measures to prevent wastage and shortages, all the while being remarkably dependable and comprehensible. It tackles the challenges associated with manual fluid level management by seamlessly integrating an array of sensors, microcontrollers, wireless communication modules, and control mechanisms. This integration results in a sophisticated approach to fluid monitoring and regulation. Its significance shines in scenarios where precise fluid level management proves pivotal, such as within industrial, agricultural, and distant settings.
+ <font size= “1”> **The FluidGuard:** </font> Intelligent Liquid Level Management and Refill Solution is akin to having a smart assistant for effectively managing liquids in tanks and containers. Envision a helpful companion that not only observes fluid levels but also takes proactive measures to prevent wastage and shortages, all the while being remarkably dependable and comprehensible. It tackles the challenges associated with manual fluid level management by seamlessly integrating an array of sensors, microcontrollers, wireless communication modules, and control mechanisms. This integration results in a sophisticated approach to fluid monitoring and regulation. Its significance shines in scenarios where precise fluid level management proves pivotal, such as within industrial, agricultural, and distant settings.
 
 ##  Key Features: 
 
-*	Real-time Fluid Level Monitoring: This system is engineered to monitor liquid levels across various environments, ranging from water tanks to industrial storage. By constantly gathering data from the fluid level sensor, it achieves precise and up-to-the-minute monitoring of fluid levels.
-*	Fail-safe Mechanisms: To guarantee the system's integrity, fail-safe mechanisms are integrated. These mechanisms address potential issues such as data loss or transmission failures, ensuring the system remains operational and dependable.
-*	Error Detection and Correction: The system's intelligence extends to error detection and real-time correction. It can identify sensor errors and implement corrective actions, contributing to its reliability and accuracy.
-*	Wireless Communication: The NRF24L01+ PA/LNA modules serve as the communication backbone between the transmitting and receiving devices. These modules operate on a reliable wireless protocol, enabling seamless data transmission over distances, even in challenging environments.
-*	Automated Fluid Regulation: Through relay components, the system automatically controls the pump to maintain fluid levels within pre-defined thresholds. This ensures efficient resource utilization and prevents overflows or depletion of the fluid source.
-*	User-friendly Interface: The project incorporates a 16x2 LCD display that presents fluid levels visually using bars and percentages. This intuitive interface enhances user experience and simplifies the interpretation of fluid data.
-*	Versatility Across Storage Scenarios: The system's adaptability makes it suitable for various storage scenarios, including silos and distant locations. Its wireless nature ensures that fluid data can be accessed and managed from a central location, saving time and resources.
+*	**Real-time Fluid Level Monitoring:** This system is engineered to monitor liquid levels across various environments, ranging from water tanks to industrial storage. By constantly gathering data from the fluid level sensor, it achieves precise and up-to-the-minute monitoring of fluid levels.
+  
+*	**Fail-safe Mechanisms:** To guarantee the system's integrity, fail-safe mechanisms are integrated. These mechanisms address potential issues such as data loss or transmission failures, ensuring the system remains operational and dependable.
+  
+*	**Error Detection and Correction:** The system's intelligence extends to error detection and real-time correction. It can identify sensor errors and implement corrective actions, contributing to its reliability and accuracy.
+  
+*	**Wireless Communication:** The NRF24L01+ PA/LNA modules serve as the communication backbone between the transmitting and receiving devices. These modules operate on a reliable wireless protocol, enabling seamless data transmission over distances, even in challenging environments.
+
+*	**Automated Fluid Regulation:** Through relay components, the system automatically controls the pump to maintain fluid levels within pre-defined thresholds. This ensures efficient resource utilization and prevents overflows or depletion of the fluid source.
+  
+*	**User-friendly Interface:** The project incorporates a 16x2 LCD display that presents fluid levels visually using bars and percentages. This intuitive interface enhances user experience and simplifies the interpretation of fluid data.
+  
+*	**Versatility Across Storage Scenarios:** The system's adaptability makes it suitable for various storage scenarios, including silos and distant locations. Its wireless nature ensures that fluid data can be accessed and managed from a central location, saving time and resources.
 
 
 ## Technologies Used:
 
-*	Microcontroller (Atmega 328p): The microcontroller serves as the project's core, processing data from the sensor and facilitating communication with the wireless module.
-*	Wireless Communication (NRF24L01+ PA/LNA):  These wireless modules are responsible for transmitting fluid level data from the transmitting device to the receiving device. The PA/LNA feature enhances the communication range and signal strength.
-*	Fluid Level Sensor (HC-SR04): The HC-SR04 ultrasonic sensor accurately measures fluid levels. It emits ultrasonic signals and calculates the time taken for the signal to bounce back, providing a precise measurement of the distance to the fluid's surface.
-*	User Interface (16x2 LCD Display): The LCD display translates numerical data into visual information, showing fluid levels in both bars and percentages. It offers an accessible way for users to interpret the data.
-*	Pump Control (Relay): The relay component controls the pump's operation based on the received fluid level data. It ensures that the fluid level is maintained within the desired range.
+*	**Microcontroller (Atmega 328p):** The microcontroller serves as the project's core, processing data from the sensor and facilitating communication with the wireless module.
+  
+*	**Wireless Communication (NRF24L01+ PA/LNA):**  These wireless modules are responsible for transmitting fluid level data from the transmitting device to the receiving device. The PA/LNA feature enhances the communication range and signal strength.
+  
+*	**Fluid Level Sensor (HC-SR04):** The HC-SR04 ultrasonic sensor accurately measures fluid levels. It emits ultrasonic signals and calculates the time taken for the signal to bounce back, providing a precise measurement of the distance to the fluid's surface.
+  
+*	**User Interface (16x2 LCD Display):** The LCD display translates numerical data into visual information, showing fluid levels in both bars and percentages. It offers an accessible way for users to interpret the data.
+  
+*	**Pump Control (Relay):** The relay component controls the pump's operation based on the received fluid level data. It ensures that the fluid level is maintained within the desired range.
 
 
 ## Roadmap
