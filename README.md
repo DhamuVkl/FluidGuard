@@ -31,7 +31,7 @@
 
 ![Screen Shot](https://dharageshtech.files.wordpress.com/2023/09/img_20230528_140305.jpg?w=1024)
 
- <font size= “1”> **The FluidGuard:** </font> Intelligent Liquid Level Management and Refill Solution is akin to having a smart assistant for effectively managing liquids in tanks and containers. Envision a helpful companion that not only observes fluid levels but also takes proactive measures to prevent wastage and shortages, all the while being remarkably dependable and comprehensible. It tackles the challenges associated with manual fluid level management by seamlessly integrating an array of sensors, microcontrollers, wireless communication modules, and control mechanisms. This integration results in a sophisticated approach to fluid monitoring and regulation. Its significance shines in scenarios where precise fluid level management proves pivotal, such as within industrial, agricultural, and distant settings.
+ <font size= “1”> **The FluidGuard:** </font> Intelligent Liquid Level Management and Refill Solution is akin to having a smart assistant for effectively managing liquids in tanks and containers. Envision a helpful companion that not only observes fluid levels but also takes proactive measures to prevent wastage and shortages, all the while being remarkably dependable and comprehensible. It tackles the challenges associated with manual fluid level management by seamlessly integrating an array of sensors, microcontrollers, wireless communication modules, and control mechanisms. This integration results in a sophisticated approach to fluid monitoring and regulation. Its significance shines in scenarios where precise fluid level management proves pivotal, such as within industrial, agricultural, and distant locations.
 
 ##  Key Features: 
 
