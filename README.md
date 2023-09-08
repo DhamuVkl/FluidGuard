@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/dhamuvkl/FluidGuard">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/ShaanCoding/ReadME-Generator" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">FluidGuard</h3>
