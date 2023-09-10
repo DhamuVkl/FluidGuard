@@ -52,6 +52,7 @@
 
 
 ## Technologies Used:
+<img align="right" alt="coding" width="400" src="https://dharageshtech.files.wordpress.com/2023/09/1694341467617.jpg?strip=info&w=1800">
 
 *	**Microcontroller (Atmega 328p):** The microcontroller serves as the project's core, processing data from the sensor and facilitating communication with the wireless module.
   
