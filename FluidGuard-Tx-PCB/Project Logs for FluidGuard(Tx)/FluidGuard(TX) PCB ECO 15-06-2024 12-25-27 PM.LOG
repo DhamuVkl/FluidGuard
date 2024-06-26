@@ -1,0 +1,48 @@
+Added Component: Designator=U?(FP-UFQFPN28-A0B0-MFG)
+Add component (AddParameter): Name = "Core Architecture"; Value = "ARM"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "32MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface"; Value = "I2C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Frequency"; Value = "32MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "167mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "3.6V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Memory Size"; Value = "32KB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Memory Type"; Value = "FLASH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "1.8V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of I/Os"; Value = "21"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "28"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Programmable I/O"; Value = "21"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Timers/Counters"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Supply Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Oscillator Type"; Value = "Internal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peripherals"; Value = "Brown-out Detect/Reset"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RAM Size"; Value = "1KB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Watchdog Timer"; Value = "Yes"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=U?-1
+Added Pin To Net: NetName=MCU_OSC_IN Pin=U?-2
+Added Pin To Net: NetName=MCU_OSC_OUT Pin=U?-3
+Added Pin To Net: NetName=MCU SWDIO Pin=U?-4
+Added Pin To Net: NetName=+3V3 Pin=U?-5
+Added Pin To Net: NetName=RF_CE Pin=U?-8
+Added Pin To Net: NetName=RF_CSN Pin=U?-9
+Added Pin To Net: NetName=RF_IRQ Pin=U?-10
+Added Pin To Net: NetName=RF_SCK Pin=U?-11
+Added Pin To Net: NetName=RF_MISO Pin=U?-12
+Added Pin To Net: NetName=RF_MOSI Pin=U?-13
+Added Pin To Net: NetName=BAT_MR Pin=U?-14
+Added Pin To Net: NetName=PWR_SENSE Pin=U?-15
+Added Pin To Net: NetName=GND Pin=U?-16
+Added Pin To Net: NetName=+3V3 Pin=U?-17
+Added Pin To Net: NetName=PD_SCL Pin=U?-19
+Added Pin To Net: NetName=PD_SDA Pin=U?-20
+Added Pin To Net: NetName=MCU SWCLK Pin=U?-21
+Added Pin To Net: NetName=MCU_RESET Pin=U?-22
+Added Pin To Net: NetName=SEN_TRIG Pin=U?-24
+Added Pin To Net: NetName=SEN_ECHO Pin=U?-25
+Added Pin To Net: NetName=LED_STATUS Pin=U?-26
+Added Pin To Net: NetName=MCU_BOOT0 Pin=U?-27
+Added Pin To Net: NetName=GND Pin=U?-28
+Added Member To Class: ClassName=Base IC Member=Component U? STM32L031G6U7

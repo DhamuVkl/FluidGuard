@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=+5V Pin=JH1G-1
+Removed Pin From Net: NetName=VBUS Pin=JH1G-2
+Removed Pin From Net: NetName=+3V3 Pin=JH2G-1
+Removed Pin From Net: NetName=NetJ2G_1 Pin=JH2G-2
+Removed Member From Class: ClassName=U_Debug Member=JH1G
+Removed Member From Class: ClassName=U_Debug Member=JH2G
+Added Component: Designator=SJ1G(Rectangular Jumper)
+Added Component: Designator=SJ2G(Rectangular Jumper)
+Added Pin To Net: NetName=VBUS Pin=SJ1G-1
+Added Pin To Net: NetName=+5V Pin=SJ1G-2
+Added Pin To Net: NetName=NetJ2G_1 Pin=SJ2G-1
+Added Pin To Net: NetName=+3V3 Pin=SJ2G-2
+Added Member To Class: ClassName=U_Debug Member=Component SJ1G 2PIN
+Added Member To Class: ClassName=U_Debug Member=Component SJ2G 2PIN

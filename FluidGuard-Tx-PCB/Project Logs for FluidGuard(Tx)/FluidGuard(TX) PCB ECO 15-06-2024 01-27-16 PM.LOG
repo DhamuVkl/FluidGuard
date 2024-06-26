@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetJ1E_1 Pin=SJ1E-1
+Removed Pin From Net: NetName=+3V3 Pin=SJ1E-2
+Removed Member From Class: ClassName=U_Debug Member=SJ1E
+Added Component: Designator=JH1E(JUMPER-2PIN-BLACK)
+Added Pin To Net: NetName=+3V3 Pin=JH1E-1
+Added Pin To Net: NetName=NetJ1E_1 Pin=JH1E-2
+Added Member To Class: ClassName=U_Debug Member=Component JH1E 2PIN-JUMPER-BLACK

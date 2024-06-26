@@ -1,0 +1,14 @@
+display lcd = i2c = 3
+nrf = spi = 6
+output control = 2
+user input sw = 2
+rotary = 3
+load sensing = 2
+power sensing = 1
+serial debug = 2-3
+uart = 2
+
+ADC1 = 1 - 0.0475 190, 9.5
+ADC2 = 3 - 0.1899 162, 38
+ADC3 = 1 - 0.0475
+ADC4 = 1 - 0.0475

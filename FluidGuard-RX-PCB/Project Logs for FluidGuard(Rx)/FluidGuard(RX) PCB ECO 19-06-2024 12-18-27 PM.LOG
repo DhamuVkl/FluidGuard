@@ -1,0 +1,73 @@
+Removed Pin From Net: NetName=RF_ANT Pin=C16B-1
+Removed Pin From Net: NetName=GND Pin=C16B-2
+Removed Pin From Net: NetName=GND Pin=C17B-1
+Removed Pin From Net: NetName=GND Pin=C18B-2
+Removed Pin From Net: NetName=GND Pin=C19B-1
+Removed Pin From Net: NetName=RF_ANT-OUT Pin=C19B-2
+Removed Pin From Net: NetName=RF_ANT Pin=L4B-1
+Removed Pin From Net: NetName=RF_ANT-OUT Pin=L5B-2
+Removed Member From Class: ClassName=U_NRF2401 Member=C16B
+Removed Member From Class: ClassName=U_NRF2401 Member=C17B
+Removed Member From Class: ClassName=U_NRF2401 Member=C18B
+Removed Member From Class: ClassName=U_NRF2401 Member=C19B
+Removed Member From Class: ClassName=U_NRF2401 Member=L4B
+Removed Member From Class: ClassName=U_NRF2401 Member=L5B
+Added Component: Designator=EMS1B(LEADERTECH_SMS-255F)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SMS-255F/Leader+Tech+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Leader Tech"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SMS-255F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SMS-255F/Leader+Tech+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q1D(SOP65P640X120-8N)
+Add component (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Fortune Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "FS8205A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Package"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/FS8205A/Fortune+Semiconductor/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=SJ1C(Rectangular Jumper Joint)
+Added Component: Designator=SJ2C(Rounded Jumper)
+Added Component: Designator=SJ3C(Rounded Jumper)
+Added Component: Designator=SJ4C(Rounded Jumper)
+Added Component: Designator=SJ5C(Rounded Jumper Joint 3-pin)
+Added Pin To Net: NetName=GND Pin=EMS1B-SH
+Added Pin To Net: NetName=GND Pin=EMS1B-SH
+Added Pin To Net: NetName=GND Pin=EMS1B-SH
+Added Pin To Net: NetName=GND Pin=EMS1B-SH
+Added Pin To Net: NetName=GND Pin=EMS1B-SH
+Added Pin To Net: NetName=GND Pin=EMS1B-SH
+Added Pin To Net: NetName=GND Pin=EMS1B-SH
+Added Pin To Net: NetName=GND Pin=EMS1B-SH
+Added Pin To Net: NetName=GND Pin=EMS1B-SH
+Added Pin To Net: NetName=GND Pin=EMS1B-SH
+Added Pin To Net: NetName=GND Pin=EMS1B-SH
+Added Pin To Net: NetName=GND Pin=EMS1B-SH
+Added Pin To Net: NetName=NetQ1D_1 Pin=Q1D-1
+Added Pin To Net: NetName=NetBT2D_1 Pin=Q1D-2
+Added Pin To Net: NetName=NetBT2D_1 Pin=Q1D-3
+Added Pin To Net: NetName=NetIC1D_1 Pin=Q1D-4
+Added Pin To Net: NetName=NetIC1D_2 Pin=Q1D-5
+Added Pin To Net: NetName=GND Pin=Q1D-6
+Added Pin To Net: NetName=GND Pin=Q1D-7
+Added Pin To Net: NetName=NetQ1D_1 Pin=Q1D-8
+Added Pin To Net: NetName=GND Pin=SJ1C-1
+Added Pin To Net: NetName=NetR1C_1 Pin=SJ1C-2
+Added Pin To Net: NetName=GND Pin=SJ2C-1
+Added Pin To Net: NetName=NetR2C_1 Pin=SJ2C-2
+Added Pin To Net: NetName=GND Pin=SJ3C-1
+Added Pin To Net: NetName=NetR3C_1 Pin=SJ3C-2
+Added Pin To Net: NetName=GND Pin=SJ4C-1
+Added Pin To Net: NetName=NetR4C_1 Pin=SJ4C-2
+Added Pin To Net: NetName=NetQ1C_3 Pin=SJ5C-1
+Added Pin To Net: NetName=GND Pin=SJ5C-2
+Added Pin To Net: NetName=NetSJ5C_3 Pin=SJ5C-3
+Added Member To Class: ClassName=U_NRF2401 Member=Component EMS1B SMS-255F
+Added Member To Class: ClassName=U_BMS Member=Component Q1D FS8205A
+Added Member To Class: ClassName=U_LCD Member=Component SJ1C 2PIN
+Added Member To Class: ClassName=U_LCD Member=Component SJ2C 2PIN
+Added Member To Class: ClassName=U_LCD Member=Component SJ3C 2PIN
+Added Member To Class: ClassName=U_LCD Member=Component SJ4C 2PIN
+Added Member To Class: ClassName=U_LCD Member=Component SJ5C 3PIN

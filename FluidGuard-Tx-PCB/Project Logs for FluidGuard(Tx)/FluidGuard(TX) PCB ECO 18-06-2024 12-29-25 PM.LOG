@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=MCU SWDIO Pin=J1E-2
+Removed Pin From Net: NetName=MCU SWCLK Pin=U1A-21
+Added Pin To Net: NetName=MCU SWDIO Pin=J1E-3
+Added Pin To Net: NetName=MCU SWCLK Pin=U1A-22
+Change Net Name : Old Net Name=MCU SWDIO New Net Name=MCU_RESET
+Added Pin To Net: NetName=MCU SWDIO Pin=J1E-2
+Added Pin To Net: NetName=MCU SWDIO Pin=U1A-21
+Added Net: Name=MCU SWDIO
+Added Member To Class: ClassName=U_NRF2401 Member=Component EMS1C SMS-255F

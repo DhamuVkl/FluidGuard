@@ -1,0 +1,21 @@
+Added Component: Designator=EMS1C(LEADERTECH_SMS-255F)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/SMS-255F/Leader+Tech+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Leader Tech"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "SMS-255F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/SMS-255F/Leader+Tech+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Member To Class: ClassName=U_NRF2401 Member=Component C8C 1 µF
+Added Member To Class: ClassName=U_NRF2401 Member=Component EMS1C SMS-255F

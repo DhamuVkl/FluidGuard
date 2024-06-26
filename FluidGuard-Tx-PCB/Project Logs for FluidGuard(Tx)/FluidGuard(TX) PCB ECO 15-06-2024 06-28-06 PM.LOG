@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=GND Pin=C8B-1
+Removed Pin From Net: NetName=VBUS Pin=C8B-2
+Removed Member From Class: ClassName=U_USB-PD Member=C8B

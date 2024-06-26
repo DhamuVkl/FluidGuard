@@ -1,0 +1,4 @@
+Added Component: Designator=SJ1A(Rounded Jumper Joint 3-pin)
+Added Component: Designator=SJ1E(Rounded Jumper Joint)
+Added Member To Class: ClassName=Base IC Member=Component SJ1A 3PIN
+Added Member To Class: ClassName=U_Debug Member=Component SJ1E 2PIN

@@ -1,0 +1,36 @@
+Removed Pin From Net: NetName=GND Pin=EM1C-S
+Removed Member From Class: ClassName=U_NRF2401 Member=EM1C
+Added Component: Designator=J1C(LAIRD_BMI-S-206-F)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/BMI-S-206-F/Laird/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Laird Technologies EMI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BMI-S-206-F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "LFCSP-8 Laird"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search?q=BMI-S-206-F&ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BMI-S-206-F/Laird/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Pin To Net: NetName=GND Pin=J1C-SH
+Added Member To Class: ClassName=U_NRF2401 Member=Component FL1C 2450LP14A100T
+Added Member To Class: ClassName=U_NRF2401 Member=Component IC1C NRF24L01P-R7
+Added Member To Class: ClassName=U_NRF2401 Member=Component J1C BMI-S-206-F
+Added Member To Class: ClassName=U_NRF2401 Member=Component U1C RFX2401C

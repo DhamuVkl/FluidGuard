@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=SJ1E Old Footprint=Rounded Jumper New Footprint=Regtangular Cross
+Change Component Kind : Designator=SJ1E Old Kind=Jumper New Kind=Standard
+Added Pin To Net: NetName=NetJ1E_1 Pin=SJ1E-1
+Added Pin To Net: NetName=+3V3 Pin=SJ1E-2

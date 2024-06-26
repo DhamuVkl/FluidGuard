@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=TVS_D_N Pin=D1G-1
+Removed Pin From Net: NetName=TVS_D_P Pin=D1G-3
+Removed Pin From Net: NetName=USB_D_P Pin=D1G-4
+Removed Pin From Net: NetName=USB_D_N Pin=D1G-6
+Added Pin To Net: NetName=TVS_D_P Pin=D1G-1
+Added Pin To Net: NetName=TVS_D_N Pin=D1G-3
+Added Pin To Net: NetName=USB_D_N Pin=D1G-4
+Added Pin To Net: NetName=USB_D_P Pin=D1G-6

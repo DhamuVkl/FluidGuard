@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=RELAY_B Pin=R1F_U_Relay1-1
+Removed Pin From Net: NetName=RELAY_A Pin=R1F_U_Relay2-1
+Removed Pin From Net: NetName=RELAY_A Pin=U1A-25
+Removed Pin From Net: NetName=I_SENSE_A Pin=U1A-26
+Removed Pin From Net: NetName=RELAY_B Pin=U1A-27
+Removed Pin From Net: NetName=I_SENSE_B Pin=U1A-28
+Removed Pin From Net: NetName=I_SENSE_B Pin=U1F_U_Relay1-3
+Removed Pin From Net: NetName=I_SENSE_A Pin=U1F_U_Relay2-3
+Change Component Designator: OldDesignator= NewDesignator=J1B
+Added Pin To Net: NetName=RELAY_A Pin=R1F_U_Relay1-1
+Added Pin To Net: NetName=RELAY_B Pin=R1F_U_Relay2-1
+Added Pin To Net: NetName=I_SENSE_B Pin=U1A-25
+Added Pin To Net: NetName=RELAY_B Pin=U1A-26
+Added Pin To Net: NetName=I_SENSE_A Pin=U1A-27
+Added Pin To Net: NetName=RELAY_A Pin=U1A-28
+Added Pin To Net: NetName=I_SENSE_A Pin=U1F_U_Relay1-3
+Added Pin To Net: NetName=I_SENSE_B Pin=U1F_U_Relay2-3
+Added Member To Class: ClassName=U_NRF2401 Member=Component J1B BMI-S-209-F

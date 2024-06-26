@@ -1,0 +1,92 @@
+Removed Pin From Net: NetName=GND Pin=IC1F_U_Relay1-2
+Removed Pin From Net: NetName=+12V Pin=IC1F_U_Relay1-16
+Removed Pin From Net: NetName=GND Pin=IC1F_U_Relay2-2
+Removed Pin From Net: NetName=+12V Pin=IC1F_U_Relay2-16
+Removed Member From Class: ClassName=U_Relay1 Member=IC1F_U_Relay1
+Removed Member From Class: ClassName=U_Relay2 Member=IC1F_U_Relay2
+Added Component: Designator=D1F_U_Relay1(LITEON LTV-817)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/lite-on-inc/LTV-817S-TA1/160-1893-1-ND/3306757"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Dc Forward (If) (Max)"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Output / Channel"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Transfer Ratio (Max)"; Value = "600% @ 5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Transfer Ratio (Min)"; Value = "50% @ 5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "4-SMD, Gull Wing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "id"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Type"; Value = "DC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-01-12T21:58:48.100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Lite-On Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-30캜 ~ 110캜"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "Transistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "4-SMD, Gull Wing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LTV-817S-TA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rise / Fall Time (Typ)"; Value = "4탎, 3탎"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Device Package"; Value = "4-SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "160-1893-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vce Saturation (Max)"; Value = "200mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Forward (Vf) (Typ)"; Value = "1.2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Isolation"; Value = "5000Vrms"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Output (Max)"; Value = "35V"; VariantName = "[No Variations]"
+Added Component: Designator=D1F_U_Relay2(LITEON LTV-817)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://optoelectronics.liteon.com/upload/download/DS-70-96-0016/LTV-8X7%20series%20201610%20.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/lite-on-inc/LTV-817S-TA1/160-1893-1-ND/3306757"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Dc Forward (If) (Max)"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current - Output / Channel"; Value = "50mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Transfer Ratio (Max)"; Value = "600% @ 5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Transfer Ratio (Min)"; Value = "50% @ 5mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device Package"; Value = "4-SMD, Gull Wing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "id"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Type"; Value = "DC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-01-12T21:58:48.100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Lite-On Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-30캜 ~ 110캜"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "Transistor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package / Case"; Value = "4-SMD, Gull Wing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "LTV-817S-TA1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "0.12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rise / Fall Time (Typ)"; Value = "4탎, 3탎"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Device Package"; Value = "4-SMD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "160-1893-1-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Vce Saturation (Max)"; Value = "200mV"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Forward (Vf) (Typ)"; Value = "1.2V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Isolation"; Value = "5000Vrms"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage - Output (Max)"; Value = "35V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D1F_U_Relay1-2
+Added Pin To Net: NetName=+12V Pin=D1F_U_Relay1-4
+Added Pin To Net: NetName=GND Pin=D1F_U_Relay2-2
+Added Pin To Net: NetName=+12V Pin=D1F_U_Relay2-4
+Added Pin To Net: NetName=NetD1F_U_Relay1_1 Pin=D1F_U_Relay1-1
+Added Pin To Net: NetName=NetD1F_U_Relay1_1 Pin=R1F_U_Relay1-2
+Added Net: Name=NetD1F_U_Relay1_1
+Added Pin To Net: NetName=NetD1F_U_Relay1_3 Pin=D1F_U_Relay1-3
+Added Pin To Net: NetName=NetD1F_U_Relay1_3 Pin=R3F_U_Relay1-1
+Added Net: Name=NetD1F_U_Relay1_3
+Added Pin To Net: NetName=NetD1F_U_Relay2_1 Pin=D1F_U_Relay2-1
+Added Pin To Net: NetName=NetD1F_U_Relay2_1 Pin=R1F_U_Relay2-2
+Added Net: Name=NetD1F_U_Relay2_1
+Added Pin To Net: NetName=NetD1F_U_Relay2_3 Pin=D1F_U_Relay2-3
+Added Pin To Net: NetName=NetD1F_U_Relay2_3 Pin=R3F_U_Relay2-1
+Added Net: Name=NetD1F_U_Relay2_3
+Added Member To Class: ClassName=U_Relay1 Member=Component D1F_U_Relay1 (D1F) LTV-817S-TA1
+Added Member To Class: ClassName=U_Relay2 Member=Component D1F_U_Relay2 (D1F) LTV-817S-TA1

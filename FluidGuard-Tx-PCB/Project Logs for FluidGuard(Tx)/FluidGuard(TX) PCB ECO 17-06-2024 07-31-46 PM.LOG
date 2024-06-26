@@ -1,0 +1,15 @@
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Added Pin To Net: NetName=GND Pin=EMS1C-SH
+Change Net Name : Old Net Name=NetC5C_1 New Net Name=LC
+Change Net Name : Old Net Name=NetIC1C_13 New Net Name=RF
+Added Member To Class: ClassName=U_NRF2401 Member=Component EMS1C SMS-255F

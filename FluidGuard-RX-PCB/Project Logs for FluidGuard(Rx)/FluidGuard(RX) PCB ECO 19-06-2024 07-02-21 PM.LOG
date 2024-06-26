@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=GND Pin=C1G-1
+Removed Pin From Net: NetName=GND Pin=J1G-SH
+Removed Pin From Net: NetName=GND Pin=J1G-SH
+Removed Pin From Net: NetName=GND Pin=J1G-SH
+Removed Pin From Net: NetName=GND Pin=J1G-SH
+Removed Pin From Net: NetName=GND Pin=R3G-1
+Added Pin To Net: NetName=GNDS Pin=C1G-1
+Added Pin To Net: NetName=GNDS Pin=J1G-SH
+Added Pin To Net: NetName=GNDS Pin=J1G-SH
+Added Pin To Net: NetName=GNDS Pin=J1G-SH
+Added Pin To Net: NetName=GNDS Pin=J1G-SH
+Added Pin To Net: NetName=GNDS Pin=R3G-1
+Added Net: Name=GNDS
+Added Rule: Name=Schematic Supply Nets_10

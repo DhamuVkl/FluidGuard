@@ -1,0 +1,91 @@
+Removed Pin From Net: NetName=HOT Pin=J2F_U_Relay1-1
+Removed Pin From Net: NetName=NEUTRAL Pin=J2F_U_Relay1-3
+Removed Pin From Net: NetName=HOT Pin=J2F_U_Relay2-1
+Removed Pin From Net: NetName=NEUTRAL Pin=J2F_U_Relay2-3
+Removed Pin From Net: NetName=LINE Pin=R2F_U_Relay1-1
+Removed Pin From Net: NetName=LINE Pin=R2F_U_Relay2-1
+Removed Pin From Net: NetName=NEUTRAL Pin=U2F_U_Relay1-2
+Removed Pin From Net: NetName=GND Pin=U2F_U_Relay1-3
+Removed Pin From Net: NetName=+12V Pin=U2F_U_Relay1-4
+Removed Pin From Net: NetName=NEUTRAL Pin=U2F_U_Relay2-2
+Removed Pin From Net: NetName=GND Pin=U2F_U_Relay2-3
+Removed Pin From Net: NetName=+12V Pin=U2F_U_Relay2-4
+Removed Member From Class: ClassName=U_Relay1 Member=J2F_U_Relay1
+Removed Member From Class: ClassName=U_Relay2 Member=J2F_U_Relay2
+Removed Member From Class: ClassName=U_Relay1 Member=R2F_U_Relay1
+Removed Member From Class: ClassName=U_Relay2 Member=R2F_U_Relay2
+Removed Member From Class: ClassName=U_Relay1 Member=U2F_U_Relay1
+Removed Member From Class: ClassName=U_Relay2 Member=U2F_U_Relay2
+Added Component: Designator=J1E(TE 282834-3)
+Add component (AddParameter): Name = "Color"; Value = "Green"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282834&DocType=Customer+Drawing&DocLang=English"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/te-connectivity-amp-connectors/282834-3/A98334-ND/1153264"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current"; Value = "10A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "id"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LastUpdated"; Value = "2020-01-15T04:15:50.317"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TE Connectivity AMP Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mating Orientation"; Value = "Horizontal with Board"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number Of Levels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "282834-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "0.100" (2.54mm)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Positions Per Level"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "2.01"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "Buchanan"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "A98334-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage"; Value = "150V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire Gauge"; Value = "16-30 AWG"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Wire Termination"; Value = "Screw - Rising Cage Clamp"; VariantName = "[No Variations]"
+Added Component: Designator=R4E(FP-SP3A-MFG)
+Add component (AddParameter): Name = "Case/Package"; Value = "Axial"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Diameter"; Value = "5.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "12.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "350°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Power Dissipation"; Value = "4W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "4W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistance"; Value = "10R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resistor Type"; Value = "Wirewound"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "SP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "20ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5%"; VariantName = "[No Variations]"
+Added Component: Designator=U3E(IRM-30_MWU)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Mean Well"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Future Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "9051654"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Type"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=HOT Pin=J1E-1
+Added Pin To Net: NetName=NEUTRAL Pin=J1E-3
+Added Pin To Net: NetName=LINE Pin=R4E-1
+Added Pin To Net: NetName=NEUTRAL Pin=U3E-2
+Added Pin To Net: NetName=GND Pin=U3E-3
+Added Pin To Net: NetName=+12V Pin=U3E-4
+Added Pin To Net: NetName=NetR4E_2 Pin=R4E-2
+Added Pin To Net: NetName=NetR4E_2 Pin=U3E-1
+Added Net: Name=NetR4E_2
+Added Member To Class: ClassName=U_PowerSwitch Member=Component J1E 282834-3
+Added Member To Class: ClassName=U_PowerSwitch Member=Component R4E SP3AJT10R0
+Added Member To Class: ClassName=U_PowerSwitch Member=Component U3E IRM-30-12
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4
+Added Rule: Name=Schematic Supply Nets_5
+Added Rule: Name=Schematic Supply Nets_6
+Added Rule: Name=Schematic Supply Nets_7
+Added Rule: Name=Schematic Supply Nets_8
+Added Rule: Name=Schematic Supply Nets_9

@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=NH_U_Relay1 Pin=J1F_U_Relay1-2
+Removed Pin From Net: NetName=NL_U_Relay1 Pin=J1F_U_Relay1-3
+Removed Pin From Net: NetName=NH_U_Relay2 Pin=J1F_U_Relay2-2
+Removed Pin From Net: NetName=NL_U_Relay2 Pin=J1F_U_Relay2-3
+Added Pin To Net: NetName=NL_U_Relay1 Pin=J1F_U_Relay1-2
+Added Pin To Net: NetName=NH_U_Relay1 Pin=J1F_U_Relay1-3
+Added Pin To Net: NetName=NL_U_Relay2 Pin=J1F_U_Relay2-2
+Added Pin To Net: NetName=NH_U_Relay2 Pin=J1F_U_Relay2-3

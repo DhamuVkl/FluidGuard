@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=NEUTRAL Pin=J1E-1
+Removed Pin From Net: NetName=LINE Pin=J1E-3
+Removed Member From Class: ClassName=U_PowerSwitch Member=J1E

@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=GNDS Pin=J2E-S1
+Removed Pin From Net: NetName=GNDS Pin=J2E-S2
+Removed Pin From Net: NetName=GNDS Pin=J2E-S3
+Removed Pin From Net: NetName=GNDS Pin=J2E-S4
+Change Component Footprint: Designator=J2E Old Footprint=USB4125-GF-A New Footprint=MOLEX_2171750001
+Change Component Comment : Designator=J2E Old Comment=USB4125-GF-A New Comment=2171750001
+Change component parameters: Designator = "J2E" ("J2E"); Footprint = "USB4125-GF-A"; UniqueID = "\MUETKJFZ\KJEQPZKI" ("\MUETKJFZ\KJEQPZKI")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/2171750001/Molex/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "2171750001"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/2171750001/Molex/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GNDS Pin=J2E-SH1
+Added Pin To Net: NetName=GNDS Pin=J2E-SH2
+Added Pin To Net: NetName=GNDS Pin=J2E-SH3
+Added Pin To Net: NetName=GNDS Pin=J2E-SH4

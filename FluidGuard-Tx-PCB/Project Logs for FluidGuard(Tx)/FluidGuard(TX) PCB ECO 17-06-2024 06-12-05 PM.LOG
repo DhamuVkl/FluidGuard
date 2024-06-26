@@ -1,0 +1,23 @@
+Added Component: Designator=U1C(FP-RFX2401C-MFG)
+Add component (AddParameter): Name = "Case/Package"; Value = "QFN"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "2.5GHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "-"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U1C-1
+Added Pin To Net: NetName=GND Pin=U1C-2
+Added Pin To Net: NetName=GND Pin=U1C-3
+Added Pin To Net: NetName=NRF_ANT Pin=U1C-4
+Added Pin To Net: NetName=NetR2C_1 Pin=U1C-5
+Added Pin To Net: NetName=NetR3C_1 Pin=U1C-6
+Added Pin To Net: NetName=GND Pin=U1C-7
+Added Pin To Net: NetName=GND Pin=U1C-8
+Added Pin To Net: NetName=GND Pin=U1C-9
+Added Pin To Net: NetName=RF_ANT Pin=U1C-10
+Added Pin To Net: NetName=GND Pin=U1C-11
+Added Pin To Net: NetName=GND Pin=U1C-12
+Added Pin To Net: NetName=RF_VDD Pin=U1C-14
+Added Pin To Net: NetName=GND Pin=U1C-15
+Added Pin To Net: NetName=RF_VDD Pin=U1C-16
+Added Pin To Net: NetName=GND Pin=U1C-17
+Added Member To Class: ClassName=U_NRF2401 Member=Component U1C RFX2401C

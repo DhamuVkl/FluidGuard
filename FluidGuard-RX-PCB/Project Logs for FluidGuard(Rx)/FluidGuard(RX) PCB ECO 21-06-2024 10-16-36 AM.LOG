@@ -1,0 +1,18 @@
+Added Component: Designator=FL1B(2450LP14A100T)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "2450LP14A100T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/2450lp14a100t/johanson-dielectrics?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/2450LP14A100T.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "JOHANSON TECHNOLOGY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "2450LP14A100T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "609-2450LP14A100T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Johanson-Technology/2450LP14A100T?qs=yCnrNFeXz%252BgP94nTCDCKIA%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "609-2450LP14A100T"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=FL1B-1
+Added Pin To Net: NetName=RF_ANT Pin=FL1B-2
+Added Pin To Net: NetName=GND Pin=FL1B-3
+Added Pin To Net: NetName=GND Pin=FL1B-4
+Added Pin To Net: NetName=RF_ANT-OUT Pin=FL1B-5
+Added Pin To Net: NetName=GND Pin=FL1B-6
+Added Member To Class: ClassName=U_NRF2401 Member=Component FL1B 2450LP14A100T

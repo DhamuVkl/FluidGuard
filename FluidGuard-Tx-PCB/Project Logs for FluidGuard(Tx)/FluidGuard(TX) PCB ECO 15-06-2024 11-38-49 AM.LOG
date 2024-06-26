@@ -1,0 +1,64 @@
+Removed Pin From Net: NetName=GND Pin=J2E-A1B12
+Removed Pin From Net: NetName=VBUS Pin=J2E-A4B9
+Removed Pin From Net: NetName=GND Pin=J2E-B1A12
+Removed Pin From Net: NetName=VBUS Pin=J2E-B4A9
+Removed Pin From Net: NetName=GNDS Pin=J2E-SH
+Removed Pin From Net: NetName=GNDS Pin=J2E-SH
+Removed Pin From Net: NetName=GNDS Pin=J2E-SH
+Removed Pin From Net: NetName=GNDS Pin=J2E-SH
+Change Component Footprint: Designator=J2E Old Footprint=USB4105-GF-A-060 New Footprint=USB4125-GF-A
+Change Component Comment : Designator=J2E Old Comment=USB4105-GF-A-060 New Comment=USB4125-GF-A
+Change component parameters: Designator = "J2E" ("J2E"); Footprint = "USB4105-GF-A-060"; UniqueID = "\MUETKJFZ\KVVCNZAC" ("\MUETKJFZ\KVVCNZAC")
+Change component parameters (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheets"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5407/gct-usb-type-c-product-selection-guide-2023-v1.5_web.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheets"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/USB4125 - Product Spec.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "Datasheets"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5561/USB4125 - Product Drawing.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "Product Photos"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2644/MFG_USB4125-GF-A.jpg"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink5Description"; Value = "Video File"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink5URL"; Value = "https://www.digikey.com/api/videos/videoplayer/smallplayer/6247993315001"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink6Description"; Value = "Environmental Information"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink6URL"; Value = "https://gct.co/files/info/gct_certificate_of_compliance.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "USB-C (USB TYPE-C)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating (Amps)"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Power Only, No Data; Solder Retention Tab"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Receptacle"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "id"; Value = "21"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ingress Protection"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LastUpdated"; Value = "2023-10-13T19:13:52.5975723"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "GCT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mating Cycles"; Value = "20000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Feature"; Value = "Horizontal"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount, Right Angle; Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "USB4125-GF-A_REVA2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number Of Contacts"; Value = "24 (6+18 Dummy)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number Of Ports"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-30°C ~ 85°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Cut Tape (CT)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "USB4125-GF-A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "0.67"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "USB4125"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Shielding"; Value = "Shielded"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Specifications"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2073-USB4125-GF-ACT-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Rated"; Value = "20VDC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VBUS Pin=J2E-A9
+Added Pin To Net: NetName=GND Pin=J2E-A12
+Added Pin To Net: NetName=VBUS Pin=J2E-B9
+Added Pin To Net: NetName=GND Pin=J2E-B12
+Added Pin To Net: NetName=GNDS Pin=J2E-S1
+Added Pin To Net: NetName=GNDS Pin=J2E-S2
+Added Pin To Net: NetName=GNDS Pin=J2E-S3
+Added Pin To Net: NetName=GNDS Pin=J2E-S4

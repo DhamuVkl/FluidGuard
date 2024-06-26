@@ -1,0 +1,5 @@
+Change Component Footprint: Designator=SJ1A Old Footprint=Rounded Jumper Joint 3-pin New Footprint=Rectangular Cross 3-pin
+Change Component Kind : Designator=SJ1A Old Kind=Jumper New Kind=Standard
+Added Pin To Net: NetName=NetR1A_1 Pin=SJ1A-1
+Added Pin To Net: NetName=NetR3A_2 Pin=SJ1A-2
+Added Pin To Net: NetName=MCU_BOOT0 Pin=SJ1A-3

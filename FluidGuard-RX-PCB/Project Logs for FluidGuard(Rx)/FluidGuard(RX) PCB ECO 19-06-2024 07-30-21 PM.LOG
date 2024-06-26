@@ -1,0 +1,38 @@
+Removed Pin From Net: NetName=GND Pin=C3E-1
+Removed Pin From Net: NetName=+3V3 Pin=C3E-2
+Change Component Footprint: Designator=C3E Old Footprint=CAP 0402_1005 New Footprint=CAP POL 2917_7343
+Change component parameters: Designator = "C3E" ("C3E"); Footprint = "CAP 0402_1005"; UniqueID = "\TRWXGLAC\SYDMOCQP" ("\TRWXGLAC\SYDMOCQP")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "22 µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://api.kemet.com/component-edge/download/datasheet/T491D226K010AT.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://www.digikey.com/en/products/detail/kemet/T491D226K010AT/2039625"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "2917 (7343 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Esr (Equivalent Series Resistance)"; Value = "1.6Ohm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "General Purpose"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "0.122" (3.10mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "id"; Value = "3007"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LastUpdated"; Value = "2023-01-02T20:46:27.020"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifetime @ Temp."; Value = "2000 Hrs @ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "KEMET"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Size Code"; Value = "D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "2917 (7343 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "T491D226K010AT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartId"; Value = "3007"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "0.31"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "T491"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size / Dimension"; Value = "0.287" L x 0.169" W (7.30mm x 4.30mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "399-5599-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Molded"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "22 µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Rated"; Value = "10 V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=C3E-1
+Added Pin To Net: NetName=GND Pin=C3E-2

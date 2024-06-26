@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=LINE Pin=R4E-1
+Added Pin To Net: NetName=HOT Pin=R4E-1
+Change Net Name : Old Net Name=HOT New Net Name=LINE
+Change Net Name : Old Net Name=LINE New Net Name=HOT

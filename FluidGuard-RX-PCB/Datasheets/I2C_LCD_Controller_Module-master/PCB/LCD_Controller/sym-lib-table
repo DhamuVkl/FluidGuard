@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "LCD_Controller-rescue")(type "Legacy")(uri "${KIPRJMOD}/LCD_Controller-rescue.lib")(options "")(descr ""))
+  (lib (name "MCP4561")(type "Legacy")(uri "${KIPRJMOD}/Lbraries/MCP4561103EMS/MCP4561.lib")(options "")(descr ""))
+)

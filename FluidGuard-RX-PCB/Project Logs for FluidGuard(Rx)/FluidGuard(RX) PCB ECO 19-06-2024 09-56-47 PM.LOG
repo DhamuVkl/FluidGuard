@@ -1,0 +1,71 @@
+Removed Pin From Net: NetName=GND Pin=EMS1B-SH
+Removed Pin From Net: NetName=GND Pin=EMS1B-SH
+Removed Pin From Net: NetName=GND Pin=EMS1B-SH
+Removed Pin From Net: NetName=GND Pin=EMS1B-SH
+Removed Pin From Net: NetName=GND Pin=EMS1B-SH
+Removed Pin From Net: NetName=GND Pin=EMS1B-SH
+Removed Pin From Net: NetName=GND Pin=EMS1B-SH
+Removed Pin From Net: NetName=GND Pin=EMS1B-SH
+Removed Pin From Net: NetName=GND Pin=EMS1B-SH
+Removed Pin From Net: NetName=GND Pin=EMS1B-SH
+Removed Pin From Net: NetName=GND Pin=EMS1B-SH
+Removed Pin From Net: NetName=GND Pin=EMS1B-SH
+Removed Member From Class: ClassName=U_NRF2401 Member=EMS1B
+Change Component Footprint: Designator=C2B Old Footprint=CAP POL 1411_3528 New Footprint=CAP POL 2917_7343
+Change component parameters: Designator = "C2B" ("C2B"); Footprint = "CAP POL 1411_3528"; UniqueID = "\WIIRAPMH\OSFFJVFS" ("\WIIRAPMH\OSFFJVFS")
+Change component parameters (AddParameter): Name = "Capacitance"; Value = "100µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://datasheets.avx.com/TAJ_AUTO.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "DigiKey Link"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://digikey.com/product-detail/en/avx-corporation/TAJD107K016TNJV/478-13129-1-ND/9948644"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Device Package"; Value = "2917 (7343 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Esr (Equivalent Series Resistance)"; Value = "600mOhm @ 100kHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Automotive"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height - Seated (Max)"; Value = "0.122" (3.10mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "id"; Value = "3271"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LastUpdated"; Value = "2020-09-02T01:16:11.203"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifecycle Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lifetime @ Temp."; Value = "2000 Hrs @ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "AVX Corporation"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Size Code"; Value = "D"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Minimum Order"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Type"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature"; Value = "-55°C ~ 125°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package / Case"; Value = "2917 (7343 Metric)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "TapeAndReel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Number"; Value = "TAJD107K016TNJV"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part Status"; Value = "Active"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartId"; Value = "3271"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "0.29"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ratings"; Value = "AEC-Q200"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "TAJ"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size / Dimension"; Value = "0.287" L x 0.169" W (7.30mm x 4.30mm)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "DigiKey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "478-13129-1-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "±10%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = "Molded"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100µF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage - Rated"; Value = "16V"; VariantName = "[No Variations]"
+Added Component: Designator=J1B(LAIRD_BMI-S-209-F)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DigiKey-Purchase-URL"; Value = "https://snapeda.com/shop?store=DigiKey&id=587698"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Laird Technologies"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser-Purchase-URL"; Value = "https://snapeda.com/shop?store=Mouser&id=587698"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "BMI-S-209-F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/BMI-S-209-F/Laird%20Technologies%20EMI/view-part/587698/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J1B-SH
+Added Pin To Net: NetName=GND Pin=J1B-SH
+Added Pin To Net: NetName=GND Pin=J1B-SH
+Added Pin To Net: NetName=GND Pin=J1B-SH
+Added Pin To Net: NetName=GND Pin=J1B-SH
+Added Pin To Net: NetName=GND Pin=J1B-SH
+Added Pin To Net: NetName=GND Pin=J1B-SH
+Added Pin To Net: NetName=GND Pin=J1B-SH
+Added Pin To Net: NetName=GND Pin=J1B-SH
+Added Pin To Net: NetName=GND Pin=J1B-SH
+Added Pin To Net: NetName=GND Pin=J1B-SH
+Added Pin To Net: NetName=GND Pin=J1B-SH
+Added Member To Class: ClassName=U_NRF2401 Member=Component J1B BMI-S-209-F

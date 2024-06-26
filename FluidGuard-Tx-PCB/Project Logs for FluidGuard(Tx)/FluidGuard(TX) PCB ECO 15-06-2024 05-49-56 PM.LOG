@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=NetR1A_1 Pin=SJ1A-1
+Removed Pin From Net: NetName=NetR3A_2 Pin=SJ1A-2
+Removed Member From Class: ClassName=U_Debug Member=SJ1E
+Change Component Footprint: Designator=SJ1A Old Footprint=Rectangular Cross 3-pin New Footprint=Rounded Jumper Joint 3-pin
+Change Component Kind : Designator=SJ1A Old Kind=Standard New Kind=Jumper
+Added Component: Designator=J3E(J-ROUND)
+Added Pin To Net: NetName=NetJ1E_1 Pin=J3E-1
+Added Pin To Net: NetName=+3V3 Pin=J3E-2
+Added Member To Class: ClassName=U_Debug Member=Component J3E 2PIN

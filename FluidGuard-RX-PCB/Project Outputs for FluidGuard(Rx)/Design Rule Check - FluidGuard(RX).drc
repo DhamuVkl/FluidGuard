@@ -1,0 +1,126 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\sdham\Documents\Altium Projects\FluidGuard(Rx)\FluidGuard(RX).PcbDoc
+Date     : 21-06-2024
+Time     : 04:58:58 PM
+
+Processing Rule : Clearance Constraint (Gap=0.102mm) (InNetClass('IMP')),(InNetClass('IMP-G'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.102mm) (OnLayer('Mid Layer 1(GND)')),(InNetClass('PWR'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (IsStitchingVia and InNet('BAT')),((IsVia and (Not IsStitchingVia)) Or IsPad)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (InNamedPolygon('NL_U_RELAY1_L01_P001')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0mm) (InNamedPolygon('VBUS_L01_')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.102mm) (InNet('+12V')),(OnLayer('Top Layer'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.102mm) (InNet('+5V')),(OnLayer('Top Layer'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.102mm) (OnLayer('Bottom Layer')),(InNetClass('PWR'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=0.102mm) (OnLayer('Mid Layer 2(GND)')),(InNetClass('PWR'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InPadClass('SHC')),(OnLayer('Top Layer'))
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=Yes) (InPadClass('Jumper')),(InPadClass('Jumper'))
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.102mm) (Max=25.4mm) (Preferred=0.102mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.181mm) (Max=0.26mm) (Preferred=0.26mm) (InNetClass('ANT'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.508mm) (Max=25.4mm) (Preferred=0.508mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.305mm) (Max=25.4mm) (Preferred=0.305mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.152mm) (Max=25.4mm) (Preferred=0.152mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.254mm) (Max=25.4mm) (Preferred=0.254mm) (All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.3mm) (Conductor Width=0.102mm) (Air Gap=0.102mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (InPadClass('PowerPads'))
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=0.15mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (IsVia)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.5mm) (Max=6.3mm) (IsPad)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.2mm) (Max=6.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.07mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.1mm) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0.127mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (OnLayer('Top Overlay'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (InNetClass('AC'))
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('USB-MCU'))
+Rule Violations :0
+
+Processing Rule : Matched Lengths(Delay Tolerance=1ps) (InDifferentialPairClass('USB-C'))
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 0
+Waived Violations : 0
+Time Elapsed        : 00:00:02

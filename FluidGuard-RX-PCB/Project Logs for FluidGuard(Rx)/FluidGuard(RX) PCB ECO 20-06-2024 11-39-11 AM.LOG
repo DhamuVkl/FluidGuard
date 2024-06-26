@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=USB_D_N Pin=D1G-1
+Removed Pin From Net: NetName=USB_D_P Pin=D1G-3
+Remove Pin from Net: Failed to remove Pin
+Removed Pin From Net: NetName=USB_D_N Pin=U1A-32
+Removed Pin From Net: NetName=USB_D_P Pin=U1A-33
+Added Pin To Net: NetName=TVS_D_N Pin=D1G-1
+Added Pin To Net: NetName=TVS_D_N Pin=U1A-32
+Added Net: Name=TVS_D_N
+Added Pin To Net: NetName=TVS_D_P Pin=D1G-3
+Added Pin To Net: NetName=TVS_D_P Pin=U1A-33
+Added Net: Name=TVS_D_P
+Added Differential Pair: Name=TVS_D
