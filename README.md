@@ -88,9 +88,21 @@
 ![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-11.png?strip=info&w=1800)
 ![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-12.png?strip=info&w=1800)
 ![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-13.png?strip=info&w=1800)
-![Screen Shot](?strip=info&w=1800)
-![Screen Shot](?strip=info&w=1800)
-![Screen Shot](?strip=info&w=1800)
+### FluidGuard-TX
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-1-1.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-2.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-sh-0.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-sh-1.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-sh-2.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-sh-3.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-sh-4.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-2.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-3.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-4.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-5.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-6.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardtx-7.png?strip=info&w=1800)
+
 ## Roadmap
 
 See the [open issues](https://github.com/dhamuvkl/FluidGuard/issues) for a list of proposed features (and known issues).
