@@ -20,6 +20,7 @@
 * [About the Project](#about-the-project)
 * [Key Features](#key-features)
 * [Technologies Used](#technologies-used)
+* [Schematics and Fabrication](#schematics-and-fabrication)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
@@ -29,7 +30,8 @@
 
 ## About The Project
 
-![Screen Shot](https://dharageshtech.files.wordpress.com/2023/09/img_20230528_140305.jpg?w=1024)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-01.png?strip=info&w=1800)
+
 
  <font size= “1”> **The FluidGuard:** </font> Intelligent Liquid Level Management and Refill Solution is akin to having a smart assistant for effectively managing liquids in tanks and containers. Envision a helpful companion that not only observes fluid levels but also takes proactive measures to prevent wastage and shortages, all the while being remarkably dependable and comprehensible. It tackles the challenges associated with manual fluid level management by seamlessly integrating an array of sensors, microcontrollers, wireless communication modules, and control mechanisms. This integration results in a sophisticated approach to fluid monitoring and regulation. Its significance shines in scenarios where precise fluid level management proves pivotal, such as within industrial, agricultural, and distant locations.
 
@@ -51,6 +53,7 @@
 *	**Versatility Across Storage Scenarios:** The system's adaptability makes it suitable for various storage scenarios, including silos and distant locations. Its wireless nature ensures that fluid data can be accessed and managed from a central location, saving time and resources.
 
 
+
 ## Technologies Used:
 <img align="right" alt="coding" width="400" src="https://dharageshtech.files.wordpress.com/2023/09/1694341467617.jpg?strip=info&w=1800">
 
@@ -64,7 +67,30 @@
   
 *	**Pump Control (Relay):** The relay component controls the pump's operation based on the received fluid level data. It ensures that the fluid level is maintained within the desired range.
 
-
+## Schematics and Fabrication
+### FluidGuard-RX
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-02.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-sh1-0.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-sh1-1.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-sh1-2.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-sh1-3.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-sh1-4.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-sh1-5-1.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-sh1-6.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-03.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-04.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-05.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-06.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-07.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-08.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-09.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-10.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-11.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-12.png?strip=info&w=1800)
+![Screen Shot](https://dharageshtech.wordpress.com/wp-content/uploads/2024/06/fluidguardrx-13.png?strip=info&w=1800)
+![Screen Shot](?strip=info&w=1800)
+![Screen Shot](?strip=info&w=1800)
+![Screen Shot](?strip=info&w=1800)
 ## Roadmap
 
 See the [open issues](https://github.com/dhamuvkl/FluidGuard/issues) for a list of proposed features (and known issues).
@@ -76,7 +102,7 @@ Contributions are what make the open source community such an amazing place to b
 * Please make sure you check your spelling and grammar.
 * Create individual PR for each suggestion.
 
-
+![Screen Shot](https://dharageshtech.files.wordpress.com/2023/09/img_20230528_140305.jpg?w=1024)
 ### Conclusion:
 
 The Automated Liquid Level Indication and Refilling System is a testament to my proficiency in multiple domains, including microcontroller programming, wireless communication, sensor integration, and control mechanisms. By showcasing this project in my portfolio, I demonstrate my ability to develop innovative solutions that offer practical benefits in real-world scenarios. The fusion of technology, intelligent control, and user-friendly interfaces positions this project as a significant accomplishment in the field of automated fluid management.
